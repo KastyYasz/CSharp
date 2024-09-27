@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            string nome, cpf, sobrenome;
+
+            
+
+
+
+            Console.WriteLine("Digite seu nome: ");
+            nome = Console.ReadLine();
+
+            Console.WriteLine("Digite seu sobrenome: ");
+            sobrenome = Console.ReadLine();
+
+
+            Console.WriteLine("Digite seu CPF: ");
+            cpf = Console.ReadLine();   
+
+
+            Console.WriteLine("Digite sua idade");
+            int idade = int.Parse(Console.ReadLine());
+            
+
+
+
+            Console.WriteLine(" Seu nome é : " + nome + " " +sobrenome);
+            Console.WriteLine("Seu cpf é : " + cpf);
+            Console.WriteLine("Sua idade é : " + idade);
+
+
+
+
+
+
+
+
+
+
+            Console.ReadKey();
+            
+
+        }
+    }
+}
